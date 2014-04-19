@@ -33,7 +33,7 @@ private String email;
     }
 
     public String toString(){
-        return "Usuario{" + "Nombre:" + nombre + ", Edad:" + edad + ", Email:" + email + '}';
+        return "Usuario" + "Nombre:" + nombre + ", Edad:" + edad + ", Email:" + email ;
     }
  public Usuario(String nombre, int edad, String email) {
         this.nombre = nombre;
