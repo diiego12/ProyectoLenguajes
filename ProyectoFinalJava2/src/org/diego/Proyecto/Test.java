@@ -2,11 +2,11 @@ package org.diego.Proyecto;
 
 public class Test {
     public static void main(String[] args) throws Exception{
-        Usuario u = new Usuario("pdod",78,"sdj@klck.com");
-        GuardarUsuario.guardar(u);
+        Musica ui = new Musica("e","e", 3, 4);
+        GuardarMusica.guardar(ui);
     
-    for(Usuario usu: GuardarUsuario.leer()){
-        System.out.println(usu);
+    for(Musica mus: GuardarMusica.leer()){
+        System.out.println(mus);
     }
     }
 }

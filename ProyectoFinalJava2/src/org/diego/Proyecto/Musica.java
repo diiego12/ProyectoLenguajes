@@ -44,7 +44,7 @@ public class Musica implements Serializable {
     }
 
    public String toString(){
-        return "Nombre de la Banda: " + nombre_banda+ "País: " + pais + ", Año de formación: " + año_form + ", Numero de Integrantes: " + num_integrantes ;
+        return "Nombre de la Banda: " + nombre_banda+ " País: " + pais + ", Año de formación: " + año_form + ", Numero de Integrantes: " + num_integrantes ;
     }
     
     public void setNum_integrantes(int num_integrantes) {
