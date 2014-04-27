@@ -30,14 +30,28 @@ private void initComponents(){
     
 }
 
-
+private void jButtonActionPerformed(java.awt.event.ActionEvent evt){
+    
+    try{
+        
+        GuardarMusica.guardar(new Musica(nomb_band.getText(), 
+            ps_band.getText(),
+            Integer.parseInt(ano_form.getText()),
+            Integer.parseInt(num_int.getText()) ));
+        
+        nomb_band.setText(null);
+        ps_band.setText(null);
+        ano_form.setText(null);
+        num_int.setText(null);
+        
+    }catch(Exception ex){
+     Logger.getLogger(RegistroMusica.class.getName()).log(Level.SEVERE, null, ex);   
+    }
+    
+}
     
 
-
-
-
-
-private javax.swing.JTextField ano_form;
+    private javax.swing.JTextField ano_form;
     private javax.swing.JButton insert;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

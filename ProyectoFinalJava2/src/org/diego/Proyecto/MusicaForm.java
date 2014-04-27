@@ -45,7 +45,7 @@ public class MusicaForm extends javax.swing.JFrame {
 
         jLabel5.setText("Registro de Musica");
 
-        insert.setText("Ingresar");
+        insert.setText("Registrar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
